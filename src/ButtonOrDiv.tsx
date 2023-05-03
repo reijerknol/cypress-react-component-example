@@ -1,7 +1,7 @@
 export const ButtonOrDiv = ({button} : {button: boolean}) => {
     if (button){
-        return <button>Click me</button>
+        return <button data-testid={"button"}>Click me</button>
     } else {
-        return <div>Er is hier niks</div>
+        return <div data-testid={"divider"}>Er is hier niks</div>
     }
 }
